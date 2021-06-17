@@ -72,5 +72,5 @@ python detect_oods.py --model vgg16 --ind cifar10
 
 ## 7. Co-train models
 ```python
-python co_train.py --model resnet34 --dataset cifar10
+python co_train.py --model vgg16 --dataset cifar10
 ```
