@@ -1,8 +1,6 @@
 # LA-OOD
 This is a pytorch implementation for LA-OOD: Layer Adaptive Deep Neural Networks for Out-of-distribution Detection.
 
-(For ICDM 2021)
-
 # Overview
 <img width="2186" alt="Overview" src="https://user-images.githubusercontent.com/71032219/122402188-de578180-cf42-11eb-9f0f-9eb45af5292d.png">
 An overview of our proposed Layer Adaptive Deep Neural Networks for OOD Detection (LA-OOD). As the deeper layers of a DNN tend to have higher capacity for representing more sophisticated concepts, our framework fully utilizes the intermediate outputs of a DNN to identify OODs of different complexity. Average pooling is done to first reduce the feature dimension of the intermediate outputs, then the low-dimension feature vectors are fed into the OOD detectors to generate OOD scores for the input samples. The OOD detectors are trained in an unsupervised self-adaptive setting, hence LA-OOD can be flexibly applied to any existing DNNs with minor computation and data cost.
