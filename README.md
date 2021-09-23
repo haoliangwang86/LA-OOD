@@ -63,7 +63,7 @@ python save_inter_outputs.py --model vgg16 --ind cifar10
 python train_ood_detectors.py --model vgg16 --ind cifar10
 ```
 
-## 6. Detect OODs
+## 6. Test: OOD detection
 ```python
 python detect_oods.py --model vgg16 --ind cifar10
 ```
