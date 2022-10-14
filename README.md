@@ -68,7 +68,7 @@ python train_ood_detectors.py --model vgg16 --ind cifar10
 python detect_oods.py --model vgg16 --ind cifar10
 ```
 
-## 7. Co-train models
+## 7. Co-train models (optional)
 ```python
 python co_train.py --model vgg16 --dataset cifar10
 ```
