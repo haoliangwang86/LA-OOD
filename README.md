@@ -1,5 +1,5 @@
 # LA-OOD
-This is a pytorch implementation for LA-OOD: Layer Adaptive Deep Neural Networks for Out-of-distribution Detection.
+This is a pytorch implementation for LA-OOD: [Layer Adaptive Deep Neural Networks for Out-of-distribution Detection](https://arxiv.org/abs/2203.00192).
 
 # Overview
 <img width="2186" alt="Overview" src="https://user-images.githubusercontent.com/71032219/122402188-de578180-cf42-11eb-9f0f-9eb45af5292d.png">
